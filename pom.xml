@@ -45,6 +45,13 @@
 			<version>1.0.4</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.mrunit</groupId>
+			<artifactId>mrunit</artifactId>
+			<version>0.9.0-incubating</version>
+			<classifier>hadoop1</classifier>
+		</dependency>
+
 	</dependencies>
 
 </project>
