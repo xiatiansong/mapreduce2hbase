@@ -1,0 +1,12 @@
+{
+   "namespace": "com.navteq.avro",
+   "name": "FacebookSpecialUser1",
+   "type": "record",
+   "fields": [
+      {"name": "type", "type": "string" },
+      {"name": "user", "type": com.navteq.avro.FacebookUser },
+        {"name": "extension", 
+        "type": [com.navteq.avro.FacebookSpecialUserExtension1,com.navteq.avro.FacebookSpecialUserExtension2,"null"]
+        }
+      ]
+}

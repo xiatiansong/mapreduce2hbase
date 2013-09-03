@@ -1,0 +1,8 @@
+{
+   "namespace": "com.navteq.avro",
+   "name": "FacebookSpecialUserExtension1",
+   "type": "record",
+   "fields": [
+      {"name": "specialData1", "type": "int"}
+     ]
+}
